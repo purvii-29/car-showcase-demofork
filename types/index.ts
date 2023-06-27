@@ -11,6 +11,10 @@ export interface CustomButtonProps {
     isDisabled?: boolean;
 }
 
+export interface HomeProps {
+    searchParams: FilterProps;
+  }
+
 export interface FilterProps {
     manufacturer?: string;
     year?: number;
