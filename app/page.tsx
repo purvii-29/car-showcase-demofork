@@ -1,4 +1,4 @@
-import { CustomFilter, Hero, SearchBar } from '@/components'
+import { CustomFilter, Hero, SearchBar, ShowMore } from '@/components'
 import Image from 'next/image'
 import { fetchCars } from '@/utils';
 import { HomeProps } from '@/types';
@@ -40,6 +40,9 @@ export default async function Home({ searchParams }) {
                   <CarCard car={car} />
                 ))}
               </div>
+              <ShowMore 
+
+              />
             </section>
           ) : (
             <div className='home__error-container'>
