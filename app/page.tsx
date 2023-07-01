@@ -1,9 +1,7 @@
-import { CustomFilter, Hero, SearchBar, ShowMore } from '@/components'
+import { CustomFilter, Hero, SearchBar, ShowMore, CarCard } from '@/components'
 import Image from 'next/image'
 import { fetchCars } from '@/utils';
-import { HomeProps } from '@/types';
 
-import CarCard from '@/components/CarCard';
 import { fuels, yearsOfProduction } from '@/constants';
 
 export default async function Home({ searchParams }) {
