@@ -63,7 +63,6 @@ const SearchBar = () => {
             <SearchManufacturer 
                 manufacturer={manufacturer}
                 setManufacturer={setManufacturer} 
-
             />
             <SearchButton otherClasses="sm:hidden"/>
         </div>
